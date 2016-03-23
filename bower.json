@@ -1,0 +1,33 @@
+{
+  "name": "explorer-rocks3d",
+  "version": "0.0.1-SNAPSHOT",
+  "dependencies": {
+	"angular": "~1.4.10",
+	"d3": "~3.5.12",
+	"angular-route": "~1.4.10",
+	"angular-sanitize": "~1.4.10",
+	"angular-aria": "~1.4.10",
+	"angular-messages": "~1.4.10",
+	"font-awesome": "~4.5.0"
+  },
+  "overrides": {
+	"bootstrap": {
+	  "main": [
+		"less/bootstrap.less",
+		"dist/css/bootstrap.css",
+		"dist/js/bootstrap.js"
+	  ]
+	},
+	"font-awesome": {
+	  "main": [
+		"css/font-awesome.css"
+	  ]
+	},
+	"ga-explorer-ui-components": {
+	  "main": [
+		"dist/ga-explorer-ui.js",
+		"dist/ga-explorer-ui.css"
+	  ]
+	}
+  }
+}

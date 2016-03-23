@@ -1,22 +1,16 @@
 # Rock Properties Explorer
 
 
-An AngularJS/TypeScript web app to deliver public Rock Properties data from: 
+An AngularJS/TypeScript web app to deliver public Rock Properties data from:
 <a href="http://www.ga.gov.au/geophysics-rockpropertypub-gws/web/">
 	http://www.ga.gov.au/geophysics-rockpropertypub-gws/web/
-</a>	
+</a>
 
-- Visualisation tools provided by 
-<a href="https://github.com/GeoscienceAustralia/explorer-rock-properties-components">explorer-rock-properties-components</a>.
-- Geospatial indexing services provided by `explorer-quadtree-service`.
+1 x pages in this project:
 
+1. `src/main/webapp/rocks3d.html` for local development
 
-2 x pages in this project:
-
-1. `src/main/webapp/index.html` for local development
-2. `src/main/webapp/rock-properties.html` for deployment (file paths written to integrate with `explorer-web` overlay).
-
-This project was generated with [yo generator-explorer] (https://github.com/GeoscienceAustralia/generator-explorer)
+This project was generated with)
 generator
 
 ## Install, Build, Run
