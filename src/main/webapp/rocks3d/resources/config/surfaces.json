@@ -1,0 +1,76 @@
+{
+   "type":"FeatureCollection",
+	"features": [
+		{  
+        	"id":"elevation1SecUrl",
+            "bbox": [112.99986111100009, -44.000138889548303, 153.9998611116614, -10.000138888999906],
+         	"properties":{
+         		"label": "Surface Elevation",
+         		"description": "The one second DEM data",
+         		"show": true,
+         		"urlTemplates": {
+         			"elevation": "http://services.ga.gov.au/gis/services/DEM_SRTM_1Second_Hydro_Enforced/MapServer/WCSServer?SERVICE=WCS&VERSION=1.0.0&REQUEST=GetCoverage&coverage=1&CRS=EPSG:4326&BBOX={bbox}&FORMAT=GeoTIFF&RESX={resolution}&RESY={resolution}&RESPONSE_CRS=EPSG:4326&HEIGHT={resolution}&WIDTH={resolution}",
+         			"imagery": "http://www.ga.gov.au/gisimg/services/topography/World_Bathymetry_Image_WM/MapServer/WMSServer?LAYERS=Bathy%20Areas,World%20Bathymetry%20Image,Australian%20Landsat&TRANSPARENT=TRUE&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&SRS=EPSG%3A4326&BBOX={bbox}&WIDTH=512&HEIGHT=512"	 
+         		},
+              	"parameters": [
+            		"resolution",
+            		"bbox"
+            	]
+         	},
+         	"type":"Feature",
+         	"geometry":{  
+	            "type":"Polygon",
+            	"coordinates":[ [ 
+            		[112.99986111100009, -44.000138889548303], [153.9998611116614, -44.000138889548303], [153.9998611116614, -10.000138888999906], [112.99986111100009, -10.000138888999906], [112.99986111100009, -44.000138889548303] 
+            	] ]
+         	}
+      	},
+		{  
+        	"id":"gabBandannaTop",
+            "bbox": [139.14151181905356, -27.58120300184591, 149.14151181905356, -19.58120300184591],
+         	"properties":{
+         		"label": "Bandanna top",
+         		"description": "The one second DEM data",
+         		"active": false,
+         		"urlTemplates": {
+         			"elevation":"http://win-amap-test01:6080/arcgis/services/Bandanna_Top_Galilee_groundwater/MapServer/WCSServer?SERVICE=WCS&VERSION=1.0.0&REQUEST=GetCoverage&coverage=1&CRS=EPSG:4326&BBOX={bbox}&FORMAT=GeoTIFF&RESX={resolution}&RESY={resolution}&RESPONSE_CRS=EPSG:4326&HEIGHT={resolution}&WIDTH={resolution}",
+         			"imagery": "http://www.ga.gov.au/gisimg/services/topography/World_Bathymetry_Image_WM/MapServer/WMSServer?LAYERS=Bathy%20Areas,World%20Bathymetry%20Image,Australian%20Landsat&TRANSPARENT=TRUE&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&SRS=EPSG%3A4326&BBOX={bbox}&WIDTH=512&HEIGHT=512"	 
+         		},
+             	"parameters": [
+            		"resolution",
+            		"bbox"
+            	]
+         	},
+         	"type":"Feature",
+         	"geometry":{  
+	            "type":"Polygon",
+            	"coordinates":[ [ 
+            		[139.14151181905356, -27.58120300184591], [149.14151181905356, -27.58120300184591], [149.14151181905356, -19.58120300184591], [139.14151181905356, -19.58120300184591], [139.14151181905356, -27.58120300184591] 
+            	] ]
+         	}
+      	},
+		{  
+        	"id":"gabGroundwater",
+            "bbox": [126.82614118476178, -35.23644343922292, 155.15911303478322, -6.72436153404528],
+         	"properties":{
+         		"label": "GAB Groundwater",
+         		"description": "Great Artesian Basin Groundwater",
+         		"urlTemplates": {
+         			"elevation":"http://win-amap-test01:6080/arcgis/rest/services/Great_Artesian_Basin_groundwater/MapServer/WCSServer?SERVICE=WCS&VERSION=1.0.0&REQUEST=GetCoverage&coverage=1&CRS=EPSG:4326&BBOX={bbox}&FORMAT=GeoTIFF&RESX={resolution}&RESY={resolution}&RESPONSE_CRS=EPSG:4326&HEIGHT={resolution}&WIDTH={resolution}",
+         			"imagery": "http://win-amap-test01:6080/arcgis/rest/services/Great_Artesian_Basin_groundwater/MapServer//WMSServer?LAYERS=0&TRANSPARENT=TRUE&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&SRS=EPSG%3A4326&BBOX={bbox}&WIDTH=512&HEIGHT=512"	 
+         		},
+             	"parameters": [
+            		"resolution",
+            		"bbox"
+            	]
+         	},
+         	"type":"Feature",
+         	"geometry":{  
+	            "type":"Polygon",
+            	"coordinates":[ [ 
+            		[126.82614118476178, -35.23644343922292], [155.15911303478322, -35.23644343922292], [155.15911303478322, -6.72436153404528], [126.82614118476178, -6.72436153404528], [126.82614118476178, -35.23644343922292] 
+            	] ]
+         	}
+      	}
+	]
+}

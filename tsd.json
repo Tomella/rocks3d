@@ -10,6 +10,21 @@
     },
     "angularjs/angular.d.ts": {
       "commit": "473d37ca81c8d572d90925887baf5c619465c9a3"
+    },
+    "threejs/three.d.ts": {
+      "commit": "a44529fcb1e1cdc0355e71c42a6048de99b57c34"
+    },
+    "d3/d3.d.ts": {
+      "commit": "a44529fcb1e1cdc0355e71c42a6048de99b57c34"
+    },
+    "geojson/geojson.d.ts": {
+      "commit": "a44529fcb1e1cdc0355e71c42a6048de99b57c34"
+    },
+    "leaflet/leaflet.d.ts": {
+      "commit": "a44529fcb1e1cdc0355e71c42a6048de99b57c34"
+    },
+    "leaflet-label/leaflet-label.d.ts": {
+      "commit": "a44529fcb1e1cdc0355e71c42a6048de99b57c34"
     }
   }
 }
